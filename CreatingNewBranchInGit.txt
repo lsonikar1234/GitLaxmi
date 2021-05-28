@@ -1,0 +1,102 @@
+Microsoft Windows [Version 10.0.17763.1879]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\Q6850\Desktop\GitExample\Example\GitUj>git add .
+
+C:\Users\Q6850\Desktop\GitExample\Example\GitUj>git commit -m "laxmi added new file"
+[main c7cd3cf] laxmi added new file
+ Committer: Lakshmi Sonikar <Q6850@Corp.qualitykiosk.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 13 insertions(+)
+ create mode 100644 FactorialProgram.java
+
+C:\Users\Q6850\Desktop\GitExample\Example\GitUj>git push https://github.com/lsonikar1234/GitUj.git main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 458 bytes | 152.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/lsonikar1234/GitUj.git
+   fb098a5..c7cd3cf  main -> main
+
+/////////////////////////////////////////////////////////////////////////////////
+this code is for creating new branch in repo
+C:\Users\Q6850\Desktop\GitExample\Example\GitUj>git branch laxmi
+
+C:\Users\Q6850\Desktop\GitExample\Example\GitUj>git branch
+  laxmi
+* main
+
+C:\Users\Q6850\Desktop\GitExample\Example\GitUj>git checkout laxmi
+Switched to branch 'laxmi'
+
+C:\Users\Q6850\Desktop\GitExample\Example\GitUj>git branch
+* laxmi
+  main
+
+C:\Users\Q6850\Desktop\GitExample\Example\GitUj>git status
+On branch laxmi
+nothing to commit, working tree clean
+
+C:\Users\Q6850\Desktop\GitExample\Example\GitUj>git status
+On branch laxmi
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Factorial.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Q6850\Desktop\GitExample\Example\GitUj>git add Factorial.java
+
+C:\Users\Q6850\Desktop\GitExample\Example\GitUj>git status
+On branch laxmi
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Factorial.java
+
+
+C:\Users\Q6850\Desktop\GitExample\Example\GitUj>git commit -m "new factorial file added"
+[laxmi 749280f] new factorial file added
+ Committer: Lakshmi Sonikar <Q6850@Corp.qualitykiosk.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 13 insertions(+)
+ create mode 100644 Factorial.java
+
+C:\Users\Q6850\Desktop\GitExample\Example\GitUj>git push https://github.com/lsonikar1234/GitUj.git laxmi
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 301 bytes | 75.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'laxmi' on GitHub by visiting:
+remote:      https://github.com/lsonikar1234/GitUj/pull/new/laxmi
+remote:
+To https://github.com/lsonikar1234/GitUj.git
+ * [new branch]      laxmi -> laxmi
+
+C:\Users\Q6850\Desktop\GitExample\Example\GitUj>
+
+C:\Users\Q6850\Desktop\GitExample\Example\GitUj>
